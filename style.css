@@ -25,6 +25,11 @@ header:hover{
     transition-duration: 4s;
     transition-delay: all in 1 2s ease-in-out;
 }
+#contactInformation{
+color: red;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 25px;
+}
 .center{
     align-items: center;
     text-align: center;
@@ -65,9 +70,17 @@ margin-left: 50%;
       
 }
 .landinghead{
-    padding-top: 200px;
+    padding-top: 100px;
     text-shadow: 2px 2px gold;
     color: white;
+ 
+}
+.maq{
+    padding-top: 100px;
+    text-shadow: 2px 2px gold;
+    color: white;
+    font-size: 30px;
+    
 }
 .but{
     background: blue;
@@ -85,6 +98,10 @@ margin-left: 50%;
 .aboutProjects{
     display: flex;
 
+}
+.contact{
+    color: blue;
+    cursor: pointer;
 }
 .about{
     background: rgb(184, 151, 151);

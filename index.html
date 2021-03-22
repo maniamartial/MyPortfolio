@@ -10,12 +10,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel= "stylesheet" href="style.css">
-        <script type="javascript" src="script.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <script>
-        console.log("jasnkxnknak");
-    </script>
+  
 
     <header>
     <h1 class=" hov top-head center top-head">TechMania</h1>
@@ -25,13 +23,14 @@
             <li><a href="#projects" >Hire_Me</a></li>
             <li><a href="#aboutme">About_Me</a></li>
             <li><a href="#projects" >Projects</a></li>
-            <li class="contact"><a href="">My_Contact</a></li>
+            <li class="contact"><a onclick="document.getElementById('contactInformation').innerText='+254740743521\n martialmania19@gmail.com'">My_Contact</a></li>
            
         </ol>
     </nav>
 
 </header>
 <form class="landingpage center">
+    <marquee class="maq" scrollamount=10>Open to work</marquee>
 <h1 class="landinghead">I' Am MANIA</h1>
 <p>
     Thank you for Visiting my profile!!. Feel free to read <br>
@@ -39,7 +38,7 @@
 </p>
 <button type="button" class="but1 but">HIRE ME</button>
 <button type="button" class="but2 but">Call Me</button>
-<p class="contactInformation"></p>
+<p id="contactInformation"></p>
 
 </form>
 <section class="two_sector">
@@ -96,6 +95,7 @@ Aresponsive designs Attracting customers</p></div></a>
     <a href="#top" class="top">Back To Top</p>
     </footer>
 </section>
+
 </form>
 </body>
 </html>
