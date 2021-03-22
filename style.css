@@ -1,0 +1,183 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: darkred;
+    text-shadow: 2px 1px lawngreen;
+}
+header{
+width: 100%;
+height: 150px;
+background: greenyellow;
+transform: skew(20deg);
+
+}
+header:hover{
+    transform: skew(0deg);
+    transition-duration: 4s;
+    transition-delay: all in 1 2s ease-in-out;
+}
+.center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.menu{
+flex-wrap: wrap;
+display: flex;
+transform: skew(-20deg);
+text-decoration: none;
+list-style: none;
+
+margin-left: 50%;
+}
+.top-head{
+    transform: skew(-20deg);
+    color: red;
+   
+
+}
+.menu:hover{
+    transform:translate(20deg);
+    color: white;
+    transition-delay: 1s;
+    transition-duration: 21;
+    transform: all in 2s ease-out;
+    text-shadow: 1px 2px darkred;
+}
+.landingpage{
+     background: linear-gradient(rgba(247, 232, 232, 0.5), rgba(212, 113, 113, 0.7)),url("DSC_7158.JPG")
+     center
+    no-repeat
+    ;
+   background-attachment: fixed;
+    background-size: cover;
+   height: 600px;
+      
+}
+.landinghead{
+    padding-top: 200px;
+    text-shadow: 2px 2px gold;
+    color: white;
+}
+.but{
+    background: blue;
+    border-radius: 20%;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.but:hover{
+    transition-delay: 2s;
+    transition: all in 2s ease-in-out;
+    transition-duration: 1s;
+    background: black;
+}
+.aboutProjects{
+    display: flex;
+
+}
+.about{
+    background: rgb(184, 151, 151);
+    width: 600px;
+    margin-left: -30px;
+}
+.project{
+    background: rgb(201, 180, 170);
+    margin-left: -20px;
+    width: 900px;
+    margin-right: -3%;
+
+}
+.first-second, .third-fourth,.fifth-sixth{
+    display: flex;
+     
+}
+.secondproject, .sixthproject, .fourthproject{
+background: rgb(245, 242, 242);
+width: 300px;
+height: 250px;
+}
+.fproject, .thirdproject, .fifthproject{
+    background: yellow;
+    width: 350px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 1px 2px;
+    padding: 2px 2px;
+
+}
+.fproject{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("firstProj.jpeg")
+    center
+    no-repeat;
+    color: white;
+}
+.secondproject{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("travel.jpeg")
+    center
+    no-repeat;
+    color: white;
+}
+.thirdproject{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("chatting.jpeg")
+    center
+    no-repeat;
+    color: white;
+}
+.fourthproject{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("texteditor.jpeg")
+    center
+    no-repeat;
+    color: white;
+}
+.fifthproject{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("house.jpeg")
+    center
+    no-repeat;
+    color: white;
+}
+.sixthproject{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url("movieshop.jpeg")
+    center
+    no-repeat;
+    color: white;
+}
+footer{
+    background: rgb(183, 247, 183);
+}
+.logolinks{
+    width: 50px;
+    height: 50px;
+    
+}
+.logolinks:hover{
+    border-radius: 50%;
+    transition: 1s;
+    transition-duration: 2s ;
+    background: black;
+}.ul{
+    text-decoration: none;
+    list-style: none;
+}
+.top:hover{
+     color: green;
+          
+}
+.headfooter{
+    padding-top: 30px;
+ 
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
