@@ -1,9 +1,12 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-    margin-left: 3%;
-    margin-right: 3%;
+  
     
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 h1{
     font-size: 50px;
@@ -14,10 +17,10 @@ h3{
     text-shadow: 2px 1px lawngreen;
 }
 header{
+    transform: skewY(5deg);
 width: 100%;
-height: 150px;
-background: greenyellow;
-transform: skew(20deg);
+height:max-content;
+background: rgb(73, 243, 116);
 
 }
 header:hover{
@@ -39,35 +42,38 @@ font-size: 25px;
 .menu{
 flex-wrap: wrap;
 display: flex;
-transform: skew(-20deg);
 text-decoration: none;
 list-style: none;
 
 margin-left: 50%;
 }
+li{
+margin-left: 30PX;
+}
 .top-head{
-    transform: skew(-20deg);
+   
     color: red;
    
 
 }
 .menu:hover{
-    transform:translate(20deg);
+    transform: skew(0deg);
     color: white;
     transition-delay: 1s;
-    transition-duration: 21;
-    transform: all in 2s ease-out;
+    
+    transform: all in 1s ease-out;
     text-shadow: 1px 2px darkred;
+
 }
 .landingpage{
-     background: linear-gradient(rgba(247, 232, 232, 0.5), rgba(212, 113, 113, 0.7)),url("DSC_7158.JPG")
+     background: linear-gradient(rgba(58, 82, 63, 0.5), rgba(45, 68, 39, 0.7)),url("DSC_7845.JPG")
      center
     no-repeat
     ;
    background-attachment: fixed;
     background-size: cover;
    height: 600px;
-      
+      margin-top: -25px;
 }
 .landinghead{
     padding-top: 100px;
@@ -104,16 +110,14 @@ margin-left: 50%;
     cursor: pointer;
 }
 .about{
-    background: rgb(184, 151, 151);
+    background: rgb(153, 238, 127);
     width: 600px;
-    margin-left: -30px;
+   
 }
 .project{
-    background: rgb(201, 180, 170);
+    background: rgb(125, 240, 144);
     margin-left: -20px;
-    width: 900px;
-    margin-right: -3%;
-
+    
 }
 .first-second, .third-fourth,.fifth-sixth{
     display: flex;
@@ -121,13 +125,13 @@ margin-left: 50%;
 }
 .secondproject, .sixthproject, .fourthproject{
 background: rgb(245, 242, 242);
-width: 300px;
-height: 250px;
+width: 450px;
+height: 300px;
 }
 .fproject, .thirdproject, .fifthproject{
     background: yellow;
-    width: 350px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
     box-sizing: border-box;
     margin: 1px 2px;
     padding: 2px 2px;
@@ -170,7 +174,7 @@ height: 250px;
     color: white;
 }
 footer{
-    background: rgb(183, 247, 183);
+    background: rgb(125, 221, 125);
 }
 .logolinks{
     width: 50px;
@@ -197,4 +201,15 @@ footer{
 a{
     list-style: none;
     text-decoration: none;
+}
+#park{
+    font-size: 20px;
+    text-shadow: 1px 1px darkred;
+    
+}
+body:hover{
+    background-color: black;
+    color: white;
+
+    
 }
