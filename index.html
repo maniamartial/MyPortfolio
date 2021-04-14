@@ -15,17 +15,16 @@
 <body>
   
 
-    <header>
+    <header class="center">
     <h1 class=" hov top-head center top-head">TechManiaX</h1>
 
-    <nav class="topbar hov">
-        <ol class="menu">
+    <nav class="topbar hov center">
+        <ol class="menu center">
             <li><a href="#projects" >Hire_Me</a></li>
             <li><a href="#aboutme">About_Me</a></li>
             <li><a href="#projects" >Projects</a></li>
-            <li class="contact"><a onclick="document.getElementById('contactInformation').innerText='+254740743521\n martialmania19@gmail.com'">My_Contact</a></li>
-           
-        </ol>
+            <li class="contact"><a  href="#contactmania" onclick="document.getElementById('contactmeinfo').innerText='+254740743521\n martialmania19@gmail.com'">My_Contact</a></li>
+         </ol>
     </nav>
 
 </header>
@@ -42,58 +41,79 @@
 <p id="time"></p>
 <script>
 var time=document.getElementById("time");
-sett=()=>{
-    var d=new Date();
-    d.getFullYear();
-}
+
 time.innerHTML=new Date();
 
 </script>
 
 </form>
-<section class="two_sector">
-    <div class="aboutProjects">
-        <div class="about center" id="aboutme">
-            <h1>About Me</h1><hr>
-            <p>Name: Joseph Mania</p><hr><br>
-        <p>Born: 07/07/1999</p><hr><br>
-        <p>Career: Computer Scientist</p><hr><br>
-        <p>Education: Kenyatta University</p><hr><br>
-<p><h4>Skills:</h4> HTML<br>Javascript<br>CSS<br>Java<br>Wordpress<br>Python</p><hr>
-        <p></p>
-        </div>
+<section class="center">
+       
 <div class="project center" id="projects">
     <h1>Projects</h1><hr>
-<div class="first-second">
+   
+<form class="rr center">
+
+<div class="fproject">
     
-<a href="https://github.com/maniamartial/Bussiness-Template" target="_blank"><div class="fproject">Business Sample<br><p id="park">
-Aresponsive designs Attracting customers</p></div></a>
+<a href="https://github.com/maniamartial/Bussiness-Template" target="_blank">Business Sample<br><p id="park">
+Aresponsive designs Attracting customers</p></a></div>
 
-<a href="https://github.com/maniamartial/WEBDEVPROJECT" target="_blank"><div class="secondproject">Tourism Webste<br><p id="park"> 
-    A responsive travel website<br> interactive with clients</p></div></a>
-</div>
-<div class="third-fourth">
-    <a href="https://github.com/maniamartial/ChattingApplication" target="_blank"><div class="thirdproject">Standalone Chatting<br><p id="park">
-        A socket program for clent & server communication</p></div></a>
+<div class="secondproject">
+<a href="https://github.com/maniamartial/WEBDEVPROJECT" target="_blank">Tourism Webste<br><p id="park"> 
+    A responsive travel website<br> interactive with clients</p></a></div>
 
-        <a href="https://github.com/maniamartial/TextEditor" target="_blank"><div class="fourthproject">Personal SimpleTextEditor<br><p id="park">
-            A simplified  version of text editor</p></div></a>
-</div>
-<div class="fifth-sixth">
-    <a href="https://github.com/maniamartial/Comrade" target="_blank"><div class="fifthproject">House Booking site<br><p id="park">
-        A house booking website designs Attracting customers</p></div></a>
+    <div class="thirdproject">
 
-        <a href="https://github.com/maniamartial/UpepeoLendingSystem" target="_blank"><div class="sixthproject">Video Lending Software<br><p id="park">
-            A counter video lending system</p></div></a>
+    <a href="https://github.com/maniamartial/ChattingApplication" target="_blank">Standalone Chatting<br><p id="park">
+        A socket program for clent & server communication</p></a></div>
+  
+    </form>
+    <form class="rr center">
+        <div class="fourthproject">
+        <a href="https://github.com/maniamartial/TextEditor" target="_blank">Personal SimpleTextEditor<br><p id="park">
+            A simplified  version of text editor</p></a></div>
+
+
+            <div class="fifthproject">
+    <a href="https://github.com/maniamartial/Comrade" target="_blank">House Booking site<br><p id="park">
+        A house booking website designs Attracting customers</p></a></div>
+
+        <div class="sixthproject">
+        <a href="https://github.com/maniamartial/UpepeoLendingSystem" target="_blank">Video Lending Software<br><p id="park">
+            A counter video lending system</p></a></div>
+        </form>
+
 </div>
+</section>
+<h1 class="center">About Me</h1>
+<section class="aboutme">
+  
+    <div class="personaldetails center" id="aboutme">
+        <h2>Personal details</h2>
+    <div class="fon"><p>Name: Joseph Mania</p><hr>
+<p>Born: 07/07/1999</p><hr>
+<p>Career: Computer Scientist</p><hr>
+<p>Education: Kenyatta University</p><hr></div>
+<h4>Skills:</h4> <p>HTML/CSS<br>Javascript<br>Java<br>Wordpress<br>Python</p><hr>
+<p></p>
 </div>
+<div class="contactme center" id="contactmania">
+    <h2>Contact</h2>
+        <div>Name<sup>*</sup></div>
+        <div><input type="text"/></div>
+        <div>Email:<sup>*</sup></div><div><input type="email" required/></div>
+        <div>Phone Number:</div><div><input type="tel"/></div>
+        <div>Organisation:</div><div><input type="text"/></div><br>
+        <button type="submit">SUBMIT</button>
+        <p id="contactmeinfo"></p>
     </div>
 </section>
 
 <section>
     <footer class="center">
         <div>
-            <h3 class="headfooter">Lets communicate through my social media handles</h3>
+            <h4 class="headfoot">Lets communicate through my social media handles</h4>
             <ul class="ul">
                 <li>
                     <a href="https://www.facebook.com/joseph.mania.14/" target="blank"><img src="facebooklogo.jpg" class="logolinks modifylinks"></img></a>
